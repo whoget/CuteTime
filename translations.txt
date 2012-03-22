@@ -283,6 +283,40 @@ Language: Portuguese (contributed by Carlos Moutinho)
 	};
 
 
+language:Indonesian (contributed by Teguh Nurcahyo)
+
+   SETTINGS = {
+		time_ranges: [
+			{bound: Number.NEGATIVE_INFINITY,	
+					cuteness: 'di masa depan!',		unit_size: 0},
+			{bound: 0, 
+					cuteness: 'baru saja',			unit_size: 0},
+			{bound: 20 * 1000, 
+					cuteness: 'beberapa detik yang lalu',	unit_size: 0},
+			{bound: 60 * 1000, 
+					cuteness: '1 menit yang lalu',		unit_size: 0},
+			{bound: 60 * 1000 * 2, 
+					cuteness: ' menit yang lalu',		unit_size: 60 * 1000},
+			{bound: 60 * 1000 * 60, 
+					cuteness: 'sejam yang lalu',		unit_size: 0},
+			{bound: 60 * 1000 * 60 * 2, 
+					cuteness: ' jam yang lalu',			unit_size: 60 * 1000 * 60},
+			{bound: 60 * 1000 * 60 * 24, 
+					cuteness: 'kemarin',			unit_size: 0},
+			{bound: 60 * 1000 * 60 * 24 * 2, 
+					cuteness: ' hari yang lalu',			unit_size: 60 * 1000 * 60 * 24},
+			{bound: 60 * 1000 * 60 * 24 * 30,	
+					cuteness: 'bulan kemarin',			unit_size: 0},
+			{bound: 60 * 1000 * 60 * 24 * 30 * 2, 
+					cuteness: ' bulan yang lalu',		unit_size: 60 * 1000 * 60 * 24 * 30},
+			{bound: 60 * 1000 * 60 * 24 * 30 * 12, 
+					cuteness: 'tahun kemarin',			unit_size: 0},
+			{bound: 60 * 1000 * 60 * 24 * 30 * 12 * 2, 
+					cuteness: ' tahun yang lalu',			unit_size: 60 * 1000 * 60 * 24 * 30 * 12},
+			{bound: Number.POSITIVE_INFINITY, 
+					cuteness: 'lama',		unit_size: 0}
+		]
+	};
 
 ***********************************************************
 ***********************************************************
